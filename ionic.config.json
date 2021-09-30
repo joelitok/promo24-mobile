@@ -1,0 +1,7 @@
+{
+  "name": "myInAppBrowserExampleDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
