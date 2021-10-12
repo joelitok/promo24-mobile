@@ -53,13 +53,13 @@ this.dialog.alert('Active votre connection internet');
     
     }
     ngOnInit(){
-      this.platform.ready().then(() => {
-        let browser = this.iab.create('https://promo24-v1.herokuapp.com/','_system', {zoom:'no',location:'no'});
+     this.platform.ready().then(() => {
+        let browser = this.iab.create('https://promo24-v1.herokuapp.com/', '_self', {zoom:'no',location:'no'});
         //let browser = this.iab.create('https://promo24.herokuapp.com/','_self', {zoom:'no',location:'no'});
          //let browser = this.iab.create('your_website_url','_blank',{zoom:'no',location:'no'});
          browser.show();
-        });
-    }
+          });
+            }
 
   
     
